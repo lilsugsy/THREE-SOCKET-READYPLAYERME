@@ -78,7 +78,7 @@ export default class Player
             this.animation.actions.idle = this.animation.mixer.clipAction(this.resource.animations.idle)
             this.animation.actions.running = this.animation.mixer.clipAction(this.resource.animations.idle)
             this.animation.actions.jumping = this.animation.mixer.clipAction(this.resource.animations.idle)
-            this.animation.actions.jumping.setLoop( THREE.LoopOnce, 0 );
+            //this.animation.actions.jumping.setLoop( THREE.LoopOnce, 0 );
             
             this.animation.actions.current = this.animation.actions.idle
             this.animation.actions.current.play()
